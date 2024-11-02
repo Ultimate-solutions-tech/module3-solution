@@ -1,0 +1,67 @@
+/* Styling for the navbar */
+.navbar {
+    background-color: #333;
+    border: none;
+}
+.navbar-brand {
+    color: #f8f8f8 !important;
+    font-weight: bold;
+}
+
+/* Adjust the visibility and spacing for the mobile menu button */
+.navbar-toggle {
+    border-color: #f8f8f8;
+}
+.navbar-toggle .icon-bar {
+    background-color: #f8f8f8;
+}
+
+/* Full-width dropdown menu for mobile */
+.dropdown-menu {
+    width: 100%;
+    background-color: #fff; /* Light gray background */
+}
+
+ /* Styling links within the dropdown */
+ .dropdown-menu a {
+    color: #fff !important; /* Black text color */
+    background-color: #fff; /* White background */
+}
+
+/* Hover effect for dropdown links */
+.dropdown-menu a:hover {
+    background-color: #ddd; /* Light gray background on hover */
+    color: #333; /* Darker text color on hover */
+}
+
+/* Centered heading styling */
+h1 {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Tall content section */
+.tall-section {
+    background-color: #d3d3d3; /* Match the gray background in the example */
+    height: 600px; /* Tall enough for scrolling */
+    padding: 20px;
+    border: 1px solid #b3b3b3; /* Add border similar to the example */
+    margin: 20px;
+}
+
+/* Subheading styling for "Chicken" */
+.tall-section h3 {
+    color: rgb(7, 6, 6);
+    padding: 10px;
+    margin-top: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Paragraph text styling inside the tall section */
+.tall-section p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+}
